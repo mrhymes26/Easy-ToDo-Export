@@ -2,13 +2,26 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.0.1] - 2025-01-XX
+
+### Changed
+- Improved authentication error handling
+- Enhanced token caching reliability
+- Updated UI text localization
+
+### Fixed
+- Fixed token refresh issues in GetAccessTokenAsync
+- Improved error messages for better user experience
+
 ## [1.0.0] - 2025-12-18
 
 ### Added
 - Initial release
 - One-click Microsoft authentication with Device Code Flow
-- Persistent login (token caching)
+- Persistent login (token caching with Windows DPAPI encryption)
 - Multi-select list export with checkboxes
+- Option to include/exclude completed tasks
+- Language switch (English/German) with automatic system language detection
 - Export formats:
   - Excel (.xlsx) with formatted tables, colors, and summary sheet
   - Todoist CSV (compatible with Todoist import)
@@ -27,5 +40,4 @@ All notable changes to this project will be documented in this file.
 - Uses MSAL for authentication
 - Uses Microsoft Graph API for data access
 - Uses ClosedXML for Excel generation
-
 
