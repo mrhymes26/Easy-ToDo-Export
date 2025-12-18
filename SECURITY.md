@@ -66,7 +66,7 @@ C:\Users\<YourUsername>\AppData\Local\TodoExport\todo_export_cache.bin
 
 | Scope | Purpose | Risk Level |
 |-------|---------|------------|
-| `Tasks.ReadWrite` | Read your To-Do lists and tasks | Low - only To-Do access |
+| `Tasks.Read` | Read your To-Do lists and tasks (export only, no modifications) | Low - only To-Do read access |
 | `User.Read` | Display your email/name | Minimal |
 | `offline_access` | Stay logged in between sessions | Low |
 

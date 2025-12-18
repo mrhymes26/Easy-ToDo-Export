@@ -243,7 +243,7 @@ The application uses **Device Code Flow** for authentication:
 - This app uses **Microsoft's official authentication** (MSAL)
 - Your credentials are **never stored** by this app
 - Only an authentication token is cached locally in `%LocalAppData%\TodoExport\`
-- The app only requests **read/write access** to your To Do lists (`Tasks.ReadWrite`)
+- The app only requests **read access** to your To Do lists (`Tasks.Read`) - no modifications are made
 - No data is sent to any third-party servers
 - **Token Storage**: Access tokens are encrypted using Windows DPAPI (Data Protection API)
 - **Local Storage Only**: All data is stored locally on your machine

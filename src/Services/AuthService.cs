@@ -15,7 +15,7 @@ public class AuthService
     // Minimale Berechtigungen - nur was benötigt wird
     private static readonly string[] Scopes = new[]
     {
-        "Tasks.ReadWrite",  // To-Do Lesen/Schreiben
+        "Tasks.Read",       // To-Do Lesen (nur Export, keine Änderungen)
         "User.Read",        // Benutzername anzeigen
         "offline_access"    // Refresh Token für Auto-Login
     };
