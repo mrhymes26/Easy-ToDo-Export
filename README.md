@@ -8,12 +8,13 @@ A user-friendly Windows application to backup and export your Microsoft To Do li
 
 ## Background
 
-This project was inspired by [Microsoft-To-Do-Export](https://github.com/daylamtayari/Microsoft-To-Do-Export) and [TodoVoodoo](https://github.com/nickvdyck/todo-voodoo). However, these solutions didn't meet my requirements for a simple, easy-to-use application that saves time on post-export work. I wanted something that:
+This project was inspired by [Microsoft-To-Do-Export](https://github.com/daylamtayari/Microsoft-To-Do-Export) and [TodoVodo](https://www.todovodo.com/start-tutorial). However, these solutions didn't meet my requirements for a simple, easy-to-use application that saves time on post-export work. I wanted something that:
 
 - **Just works** – No manual token handling or complex setup
 - **Remembers your login** – No need to authenticate every time
 - **Exports to Excel** – Formatted, colored spreadsheets ready to use
 - **Lets you select multiple lists** – Export exactly what you need
+- **Works on Windows**
 
 ## Features
 
