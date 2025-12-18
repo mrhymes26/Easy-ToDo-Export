@@ -14,7 +14,7 @@ This project was inspired by [Microsoft-To-Do-Export](https://github.com/daylamt
 - **Remembers your login** – No need to authenticate every time
 - **Exports to Excel** – Formatted, colored spreadsheets ready to use
 - **Lets you select multiple lists** – Export exactly what you need
-- **Works on Windows**
+- **Works on Windows without using command-line scripts**
 
 ## Features
 
