@@ -45,8 +45,9 @@ Select your lists, choose a format, and export with one click. Switch between Ge
 ## Requirements
 
 - Windows 10/11
-- .NET 8.0 Runtime (automatically installed if not present)
 - Microsoft account with Microsoft To Do
+
+**Note:** No additional installation required! The application includes everything needed to run.
 
 ## Installation
 
@@ -54,16 +55,18 @@ Select your lists, choose a format, and export with one click. Switch between Ge
 1. Go to [Releases](../../releases) (or download from the latest GitHub release)
 2. Download the latest `TodoExport-vX.X.X-win-x64.zip`
 3. Extract all files to a folder
-4. Run `TodoExport.exe`
+4. Run `TodoExport.exe` - **No installation required!**
+
+The application is self-contained and includes everything needed to run on Windows 10/11.
 
 ### Option 2: Build from Source
 ```bash
 git clone https://github.com/YOUR_USERNAME/TodoExport.git
-cd TodoExport/src
-dotnet build --configuration Release
+cd 2025-app-todo-export
+dotnet publish -c Release -r win-x64 --self-contained true
 ```
 
-The compiled application will be in `bin/Release/net8.0-windows/`.
+The compiled application will be in `builds/self-contained/` or `bin/Release/net8.0-windows/win-x64/`.
 
 ## Usage
 
@@ -264,11 +267,13 @@ dotnet build
 dotnet build --configuration Release
 ```
 
-### Publish (Self-contained)
+### Publish (Self-contained - Recommended)
 
 ```bash
 dotnet publish -c Release -r win-x64 --self-contained true
 ```
+
+The self-contained build includes the .NET 8.0 runtime and works on any Windows 10/11 system without additional installation.
 
 ## Contributing
 
@@ -277,6 +282,14 @@ Contributions are welcome! Please see [CONTRIBUTING.md](CONTRIBUTING.md) for gui
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Support
+
+If you find this project useful and would like to support its development, consider buying me a coffee! ☕
+
+[![Buy Me A Coffee](https://img.shields.io/badge/Buy%20Me%20A%20Coffee-FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://buymeacoffee.com/mrhymes)
+
+[Support on Buy Me a Coffee](https://buymeacoffee.com/mrhymes)
 
 ## Acknowledgments
 

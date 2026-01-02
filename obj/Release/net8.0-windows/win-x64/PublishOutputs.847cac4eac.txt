@@ -1,0 +1,15 @@
+Z:\04_Projekte\Engineering\Vibe Coding\Final Release\builds\framework-dependent\TodoExport.exe
+Z:\04_Projekte\Engineering\Vibe Coding\Final Release\builds\framework-dependent\TodoExport.deps.json
+Z:\04_Projekte\Engineering\Vibe Coding\Final Release\builds\framework-dependent\TodoExport.runtimeconfig.json
+Z:\04_Projekte\Engineering\Vibe Coding\Final Release\builds\framework-dependent\TodoExport.pdb
+Z:\04_Projekte\Engineering\Vibe Coding\Final Release\builds\framework-dependent\ClosedXML.dll
+Z:\04_Projekte\Engineering\Vibe Coding\Final Release\builds\framework-dependent\DocumentFormat.OpenXml.dll
+Z:\04_Projekte\Engineering\Vibe Coding\Final Release\builds\framework-dependent\ExcelNumberFormat.dll
+Z:\04_Projekte\Engineering\Vibe Coding\Final Release\builds\framework-dependent\Irony.dll
+Z:\04_Projekte\Engineering\Vibe Coding\Final Release\builds\framework-dependent\Microsoft.Identity.Client.dll
+Z:\04_Projekte\Engineering\Vibe Coding\Final Release\builds\framework-dependent\Microsoft.Identity.Client.Extensions.Msal.dll
+Z:\04_Projekte\Engineering\Vibe Coding\Final Release\builds\framework-dependent\Microsoft.IdentityModel.Abstractions.dll
+Z:\04_Projekte\Engineering\Vibe Coding\Final Release\builds\framework-dependent\Newtonsoft.Json.dll
+Z:\04_Projekte\Engineering\Vibe Coding\Final Release\builds\framework-dependent\SixLabors.Fonts.dll
+Z:\04_Projekte\Engineering\Vibe Coding\Final Release\builds\framework-dependent\XLParser.dll
+Z:\04_Projekte\Engineering\Vibe Coding\Final Release\builds\framework-dependent\TodoExport.dll
