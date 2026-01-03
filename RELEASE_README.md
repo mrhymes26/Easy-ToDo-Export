@@ -151,15 +151,7 @@ Switch language with the **DE/EN** toggle in the top-right corner.
 
 If you have problems or questions:
 - Open an issue on GitHub
-- Check the [full documentation](../README.md)
-
-## ☕ Support the Project
-
-If you find this application useful and would like to support its development:
-
-[![Buy Me A Coffee](https://img.shields.io/badge/Buy%20Me%20A%20Coffee-FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://buymeacoffee.com/mrhymes)
-
-[Support on Buy Me a Coffee](https://buymeacoffee.com/mrhymes)
+- Check the full documentation on the project's GitHub page
 
 ## 📝 License
 

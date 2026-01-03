@@ -58,7 +58,7 @@ Select your lists, choose a format, and export with one click. Switch between Ge
 
 ### Option 1: Download Release
 1. Go to [Releases](../../releases) (or download from the latest GitHub release)
-2. Download the latest Release
+2. Download the latest `TodoExport-v1.0.1-win-x64.zip`
 3. Extract all files to a folder
 4. Run `TodoExport.exe` - **No installation required!**
 
@@ -66,7 +66,7 @@ The application is self-contained and includes everything needed to run on Windo
 
 ### Option 2: Build from Source
 ```bash
-git clone https://github.com/YOUR_USERNAME/TodoExport.git
+git clone <repository-url>
 cd 2025-app-todo-export
 dotnet publish -c Release -r win-x64 --self-contained true
 ```
@@ -114,7 +114,7 @@ CSV format compatible with Todoist:
 ```
 TYPE,CONTENT,PRIORITY,INDENT,AUTHOR,RESPONSIBLE,DATE,DATE_LANG,TIMEZONE
 section,List Name,,,,,,,
-task,Task Title,4,,,,2024-12-25,en,UTC
+task,Task Title,4,,,,YYYY-MM-DD,en,UTC
 ```
 
 ### 📊 Detailed CSV (.csv)
@@ -128,7 +128,7 @@ Complete JSON format with metadata:
 ```json
 {
   "about": "File exported using Microsoft To Do Export",
-  "exportedAt": "2024-12-18T12:00:00Z",
+  "exportedAt": "YYYY-MM-DDTHH:mm:ssZ",
   "lists": [
     {
       "list": { "id": "...", "displayName": "..." },
@@ -143,20 +143,20 @@ Simple tab-separated format:
 ```
 	Content	Due Date	Timezone
 List Name
-	Task Title	2024-12-25	UTC
+	Task Title	YYYY-MM-DD	UTC
 ```
 
 ### 📝 Detailed Text (.txt)
 Human-readable format with icons:
 ```
 Microsoft To Do Export
-Exported on: 2024-12-18 12:00:00
+Exported on: YYYY-MM-DD HH:mm:ss
 ============================================================
 
 📋 List Name
 ------------------------------------------------------------
   ○ Task Title 🔴
-     📅 Due: 2024-12-25 12:00
+     📅 Due: YYYY-MM-DD HH:mm
      🏷️  Categories: Work, Important
 ```
 
@@ -285,7 +285,7 @@ The self-contained build includes the .NET 8.0 runtime and works on any Windows 
 
 ## Contributing
 
-Contributions are welcome! Please see [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
+Contributions are welcome! Please open an issue or submit a pull request on GitHub.
 
 ## License
 
