@@ -8,7 +8,7 @@ A user-friendly Windows application to backup and export your Microsoft To Do li
 
 ## Background
 
-This project was inspired by [Microsoft-To-Do-Export](https://github.com/daylamtayari/Microsoft-To-Do-Export) and [TodoVodo](https://www.todovodo.com/start-tutorial). However, these solutions didn't meet my requirements for a simple, easy-to-use application that saves time on post-export work. I wanted something that:
+This project was inspired by [Microsoft-To-Do-Export](https://github.com/daylamtayari/Microsoft-To-Do-Export) and [TodoVodo](https://www.todovodo.com). However, these solutions didn't meet my requirements for a simple, easy-to-use application that saves time on post-export work. I wanted something that:
 
 - **Just works** – No manual token handling or complex setup
 - **Remembers your login** – No need to authenticate every time
@@ -53,7 +53,7 @@ Select your lists, choose a format, and export with one click. Switch between Ge
 
 ### Option 1: Download Release
 1. Go to [Releases](../../releases) (or download from the latest GitHub release)
-2. Download the latest `TodoExport-vX.X.X-win-x64.zip`
+2. Download the latest Release
 3. Extract all files to a folder
 4. Run `TodoExport.exe` - **No installation required!**
 
@@ -246,7 +246,10 @@ The application uses **Device Code Flow** for authentication:
 - This app uses **Microsoft's official authentication** (MSAL)
 - Your credentials are **never stored** by this app
 - Only an authentication token is cached locally in `%LocalAppData%\TodoExport\`
-- The app only requests **read access** to your To Do lists (`Tasks.Read`) - no modifications are made
+- The app only requests **read-only permissions** - no modifications are made:
+  - `Tasks.Read` - Read access to your To Do lists (for export only)
+  - `User.Read` - Read your basic profile (to display your name)
+  - `offline_access` - Refresh token for automatic re-login (optional)
 - No data is sent to any third-party servers
 - **Token Storage**: Access tokens are encrypted using Windows DPAPI (Data Protection API)
 - **Local Storage Only**: All data is stored locally on your machine
