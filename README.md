@@ -36,6 +36,11 @@ This project was inspired by [Microsoft-To-Do-Export](https://github.com/daylamt
 
 ## Screenshots
 
+### Main Application
+![Microsoft To Do Export](screenshot.jpg)
+
+The application provides a clean, modern interface for exporting your Microsoft To Do lists.
+
 ### Login Screen
 Simple one-click authentication – a browser window opens automatically.
 
