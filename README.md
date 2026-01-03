@@ -57,7 +57,7 @@ Select your lists, choose a format, and export with one click. Switch between Ge
 ## Installation
 
 ### Option 1: Download Release
-1. Go to [Releases](../../releases) (or download from the latest GitHub release)
+1. Go to [Releases](https://github.com/mrhymes26/Easy-ToDo-Export/releases) (or download from the latest GitHub release)
 2. Download the latest `TodoExport-v1.0.1-win-x64.zip`
 3. Extract all files to a folder
 4. Run `TodoExport.exe` - **No installation required!**
@@ -66,7 +66,7 @@ The application is self-contained and includes everything needed to run on Windo
 
 ### Option 2: Build from Source
 ```bash
-git clone <repository-url>
+git clone https://github.com/mrhymes26/Easy-ToDo-Export.git
 cd 2025-app-todo-export
 dotnet publish -c Release -r win-x64 --self-contained true
 ```
